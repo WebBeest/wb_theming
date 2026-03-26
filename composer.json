@@ -1,0 +1,18 @@
+{
+	"name": "webbeest/theming",
+	"description": "Theming recipe for Drupal 11",
+	"type": "drupal-recipe",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Patrick C. Kannekens",
+			"homepage": "https://www.web-beest.nl",
+			"role": "Maintainer",
+			"email": "info@web-beest.nl"
+		}
+	],
+	"require": {
+		"drupal/storybook": "^1.0",
+		"drupal/styleguide": "^2.2"	
+	}
+}

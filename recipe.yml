@@ -1,0 +1,20 @@
+name: "Web-Beest - Site admininistration"
+description: "Modules for Drupal site administration" 
+type: "Admin"
+install:
+  - storybook
+  - styleguide
+config:
+  import:
+    storybook: '*'
+    styleguide: '*'
+  strict: false
+  actions:
+    user.role.anonymous:
+      grantPermissions:
+        - 'render storybook stories'
+    user.role.administrator:
+      createIfNotExists:
+        label: 'Administrator'
+      grantPermissions:
+        - 'view style guides'
