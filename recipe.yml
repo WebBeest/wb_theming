@@ -2,10 +2,12 @@ name: "Web-Beest - Site admininistration"
 description: "Modules for Drupal site administration" 
 type: "Admin"
 install:
+  - block_class
   - storybook
   - styleguide
 config:
   import:
+    block_class: '*'
     storybook: '*'
     styleguide: '*'
   strict: false

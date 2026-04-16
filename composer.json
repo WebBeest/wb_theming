@@ -12,6 +12,7 @@
 		}
 	],
 	"require": {
+		"drupal/block_class": "^4",
 		"drupal/storybook": "^1.0",
 		"drupal/styleguide": "^2.2"	
 	}
